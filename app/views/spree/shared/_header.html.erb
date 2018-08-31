@@ -3,8 +3,10 @@
     <div class="container">
       <div class="row header-row">
         <figure id="logo" class="col-md-4 col-sm-3" data-hook>
-          <%= image_tag('istock3', class: 'logo') %>
-          <h1>GuacGuy</h1>
+          <%= link_to spree.root_path, class: 'logo-link' do %>
+            <%= image_tag('istock3', :class => 'logo') %>
+            <h1>GuacGuy</h1>
+          <% end %>
         </figure>
         <%= render partial: 'spree/shared/nav_bar' %>
       </div>
