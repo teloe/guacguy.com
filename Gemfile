@@ -18,6 +18,9 @@ gem 'spree', '~> 3.5.0'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'stripe'
+gem 'bootstrap', '~> 4.1.3'
+gem 'jquery-rails'
+gem 'mini_racer'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
